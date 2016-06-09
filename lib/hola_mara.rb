@@ -3,6 +3,7 @@ class HolaMara
     translator = Translator.new(language)
     translator.hi
   end
+end
 
 class HolaMara::Translator
   def initialize(language)
@@ -12,10 +13,9 @@ class HolaMara::Translator
   def hi
     case @language
     when "spanish"
-      "hola mara"
+      "HOLA MARA"
     else
       "hello mara"
     end
   end
-
 end
