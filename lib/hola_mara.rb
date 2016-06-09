@@ -3,7 +3,6 @@ class HolaMara
     translator = Translator.new(language)
     translator.hi
   end
-end
 
 class HolaMara::Translator
   def initialize(language)
@@ -18,4 +17,5 @@ class HolaMara::Translator
       "hello mara"
     end
   end
+
 end
